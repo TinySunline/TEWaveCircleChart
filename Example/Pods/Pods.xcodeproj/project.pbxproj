@@ -11,6 +11,8 @@
 		5D9F89A9F70E1565DCE0E64039646518 /* TEWaveCircleChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 250F0BB6A935F1992BA1741F719F1B46 /* TEWaveCircleChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		631BA4CB4308E8D4464B8BFEDF7A767E /* Pods-TEWaveCircleChart_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F918ECA624C8230DEE3F391C2D44F6FF /* Pods-TEWaveCircleChart_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A130E98CD77491D95A9A7F064210D0F6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01C52E445848606267385CEC255F66 /* ReplaceMe.m */; };
+		AE4069251E544D07008E56C2 /* TEWaveCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4069231E544D07008E56C2 /* TEWaveCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE4069261E544D07008E56C2 /* TEWaveCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4069241E544D07008E56C2 /* TEWaveCircleChart.m */; };
 		B25B1BA3EEEE8FF7B7E7FBD66112D868 /* Pods-TEWaveCircleChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C82AE2161C963C95F4DB7833745102C0 /* Pods-TEWaveCircleChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B29973C9916BA02EE1635F7F2EBC29B8 /* Pods-TEWaveCircleChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC529E41F40A83E7B585A1C7F2B5FFFA /* Pods-TEWaveCircleChart_Tests-dummy.m */; };
 		B7D105F9D4F535BE7AA3D5B00E3841AF /* Pods-TEWaveCircleChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4876495FE06A9D822396619AF0335E40 /* Pods-TEWaveCircleChart_Example-dummy.m */; };
@@ -34,7 +36,7 @@
 		24224D1F479017C24AE6FD2A3AD59CCA /* TEWaveCircleChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEWaveCircleChart-prefix.pch"; sourceTree = "<group>"; };
 		250F0BB6A935F1992BA1741F719F1B46 /* TEWaveCircleChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEWaveCircleChart-umbrella.h"; sourceTree = "<group>"; };
 		28016397DA9D8BF2A68B72113DFFE5D9 /* Pods-TEWaveCircleChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TEWaveCircleChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39446B285E7A4D538FCB69E0871FBDB9 /* Pods_TEWaveCircleChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TEWaveCircleChart_Tests.framework; path = "Pods-TEWaveCircleChart_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39446B285E7A4D538FCB69E0871FBDB9 /* Pods_TEWaveCircleChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEWaveCircleChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4876495FE06A9D822396619AF0335E40 /* Pods-TEWaveCircleChart_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TEWaveCircleChart_Example-dummy.m"; sourceTree = "<group>"; };
 		499BFE8A3823175E0862317A17DF91DD /* Pods-TEWaveCircleChart_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Example-resources.sh"; sourceTree = "<group>"; };
 		4D4233FE191500C4811BCF15DE5B91AE /* Pods-TEWaveCircleChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,21 +45,23 @@
 		61DB6E82B07BDC63416EC8142D34373C /* Pods-TEWaveCircleChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		620A0665E0163C78CE4B7869AB3ED31B /* Pods-TEWaveCircleChart_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6584DE8969D9D02E88E29CE36942101F /* Pods-TEWaveCircleChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TEWaveCircleChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6D609CC2272172391D3E47BD05CD4EB5 /* TEWaveCircleChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TEWaveCircleChart.framework; path = TEWaveCircleChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D609CC2272172391D3E47BD05CD4EB5 /* TEWaveCircleChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TEWaveCircleChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73868EB708F19699224AC37C42FF15EA /* Pods-TEWaveCircleChart_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		76A08FA0181C7976236738852ABAD927 /* TEWaveCircleChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TEWaveCircleChart.modulemap; sourceTree = "<group>"; };
+		76A08FA0181C7976236738852ABAD927 /* TEWaveCircleChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TEWaveCircleChart.modulemap; sourceTree = "<group>"; };
 		8D6C09A76934325EE1E15E7309B80931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E49EF7826EA5F2CA45511BD2A21E680 /* Pods_TEWaveCircleChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TEWaveCircleChart_Example.framework; path = "Pods-TEWaveCircleChart_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0883C5AAB62913897A86495E917B563 /* Pods-TEWaveCircleChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TEWaveCircleChart_Example.modulemap"; sourceTree = "<group>"; };
+		8E49EF7826EA5F2CA45511BD2A21E680 /* Pods_TEWaveCircleChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TEWaveCircleChart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0883C5AAB62913897A86495E917B563 /* Pods-TEWaveCircleChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TEWaveCircleChart_Example.modulemap"; sourceTree = "<group>"; };
 		A3A180D81F68BF150D40DE3992CAAABB /* Pods-TEWaveCircleChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE4069231E544D07008E56C2 /* TEWaveCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEWaveCircleChart.h; sourceTree = "<group>"; };
+		AE4069241E544D07008E56C2 /* TEWaveCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEWaveCircleChart.m; sourceTree = "<group>"; };
 		B15C60BB9E7206852734612B879DA107 /* TEWaveCircleChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEWaveCircleChart.xcconfig; sourceTree = "<group>"; };
 		B558D40CB465B617AC5F4E124D50E80E /* Pods-TEWaveCircleChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B88B252EABAED72A8747CF6DEC53FE1C /* Pods-TEWaveCircleChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TEWaveCircleChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC4F273B300D8163BE39769BCE4D7A95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C82AE2161C963C95F4DB7833745102C0 /* Pods-TEWaveCircleChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TEWaveCircleChart_Example-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC36A6BA0F1888D700FABAF902391751 /* Pods-TEWaveCircleChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TEWaveCircleChart_Tests.modulemap"; sourceTree = "<group>"; };
+		CC36A6BA0F1888D700FABAF902391751 /* Pods-TEWaveCircleChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TEWaveCircleChart_Tests.modulemap"; sourceTree = "<group>"; };
 		DD01C52E445848606267385CEC255F66 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F918ECA624C8230DEE3F391C2D44F6FF /* Pods-TEWaveCircleChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TEWaveCircleChart_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FC4EE2F2E5E1FE8A297455AFC8EA562A /* Pods-TEWaveCircleChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TEWaveCircleChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -97,7 +101,6 @@
 			children = (
 				4AF6CD07C39D81CFFDC17EB5A9305C45 /* Classes */,
 			);
-			name = TEWaveCircleChart;
 			path = TEWaveCircleChart;
 			sourceTree = "<group>";
 		};
@@ -142,8 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				DD01C52E445848606267385CEC255F66 /* ReplaceMe.m */,
+				AE4069231E544D07008E56C2 /* TEWaveCircleChart.h */,
+				AE4069241E544D07008E56C2 /* TEWaveCircleChart.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -232,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9F89A9F70E1565DCE0E64039646518 /* TEWaveCircleChart-umbrella.h in Headers */,
+				AE4069251E544D07008E56C2 /* TEWaveCircleChart.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +354,7 @@
 			files = (
 				A130E98CD77491D95A9A7F064210D0F6 /* ReplaceMe.m in Sources */,
 				0F918D9243EC1D8EBB2995F6502B080D /* TEWaveCircleChart-dummy.m in Sources */,
+				AE4069261E544D07008E56C2 /* TEWaveCircleChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
