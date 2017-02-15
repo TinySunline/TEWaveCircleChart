@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TEWaveCircleChart_Example' do
+  pod 'TEWaveCircleChart', :path => '../'
+
+  target 'TEWaveCircleChart_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

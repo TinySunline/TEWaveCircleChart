@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F918D9243EC1D8EBB2995F6502B080D /* TEWaveCircleChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A65A4CE638CA4B600DA13F287E01B2 /* TEWaveCircleChart-dummy.m */; };
+		5D9F89A9F70E1565DCE0E64039646518 /* TEWaveCircleChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 250F0BB6A935F1992BA1741F719F1B46 /* TEWaveCircleChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631BA4CB4308E8D4464B8BFEDF7A767E /* Pods-TEWaveCircleChart_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F918ECA624C8230DEE3F391C2D44F6FF /* Pods-TEWaveCircleChart_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A130E98CD77491D95A9A7F064210D0F6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01C52E445848606267385CEC255F66 /* ReplaceMe.m */; };
+		B25B1BA3EEEE8FF7B7E7FBD66112D868 /* Pods-TEWaveCircleChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C82AE2161C963C95F4DB7833745102C0 /* Pods-TEWaveCircleChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B29973C9916BA02EE1635F7F2EBC29B8 /* Pods-TEWaveCircleChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC529E41F40A83E7B585A1C7F2B5FFFA /* Pods-TEWaveCircleChart_Tests-dummy.m */; };
+		B7D105F9D4F535BE7AA3D5B00E3841AF /* Pods-TEWaveCircleChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4876495FE06A9D822396619AF0335E40 /* Pods-TEWaveCircleChart_Example-dummy.m */; };
+		BF98A8A97D5EFADE5C70F6772A40A8E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DBA055B33835BDB4ED3D0A08877AD33F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E20DA98590CEF763F3EDEF8BDA03C649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF0DE09F656EB04CDBBD99D85AEDBBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED73DE6D709F2DD7A5311038B22A17B;
+			remoteInfo = TEWaveCircleChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16F31223EAA9A081E1825CACE5CC692C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24224D1F479017C24AE6FD2A3AD59CCA /* TEWaveCircleChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEWaveCircleChart-prefix.pch"; sourceTree = "<group>"; };
+		250F0BB6A935F1992BA1741F719F1B46 /* TEWaveCircleChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TEWaveCircleChart-umbrella.h"; sourceTree = "<group>"; };
+		28016397DA9D8BF2A68B72113DFFE5D9 /* Pods-TEWaveCircleChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TEWaveCircleChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39446B285E7A4D538FCB69E0871FBDB9 /* Pods_TEWaveCircleChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TEWaveCircleChart_Tests.framework; path = "Pods-TEWaveCircleChart_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4876495FE06A9D822396619AF0335E40 /* Pods-TEWaveCircleChart_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TEWaveCircleChart_Example-dummy.m"; sourceTree = "<group>"; };
+		499BFE8A3823175E0862317A17DF91DD /* Pods-TEWaveCircleChart_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Example-resources.sh"; sourceTree = "<group>"; };
+		4D4233FE191500C4811BCF15DE5B91AE /* Pods-TEWaveCircleChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Example.release.xcconfig"; sourceTree = "<group>"; };
+		51A65A4CE638CA4B600DA13F287E01B2 /* TEWaveCircleChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TEWaveCircleChart-dummy.m"; sourceTree = "<group>"; };
+		589BC3CD6F1B32CAB37F4B19A10C070A /* Pods-TEWaveCircleChart_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Tests-resources.sh"; sourceTree = "<group>"; };
+		61DB6E82B07BDC63416EC8142D34373C /* Pods-TEWaveCircleChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		620A0665E0163C78CE4B7869AB3ED31B /* Pods-TEWaveCircleChart_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6584DE8969D9D02E88E29CE36942101F /* Pods-TEWaveCircleChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TEWaveCircleChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D609CC2272172391D3E47BD05CD4EB5 /* TEWaveCircleChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TEWaveCircleChart.framework; path = TEWaveCircleChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73868EB708F19699224AC37C42FF15EA /* Pods-TEWaveCircleChart_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TEWaveCircleChart_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		76A08FA0181C7976236738852ABAD927 /* TEWaveCircleChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TEWaveCircleChart.modulemap; sourceTree = "<group>"; };
+		8D6C09A76934325EE1E15E7309B80931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E49EF7826EA5F2CA45511BD2A21E680 /* Pods_TEWaveCircleChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TEWaveCircleChart_Example.framework; path = "Pods-TEWaveCircleChart_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0883C5AAB62913897A86495E917B563 /* Pods-TEWaveCircleChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TEWaveCircleChart_Example.modulemap"; sourceTree = "<group>"; };
+		A3A180D81F68BF150D40DE3992CAAABB /* Pods-TEWaveCircleChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B15C60BB9E7206852734612B879DA107 /* TEWaveCircleChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TEWaveCircleChart.xcconfig; sourceTree = "<group>"; };
+		B558D40CB465B617AC5F4E124D50E80E /* Pods-TEWaveCircleChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEWaveCircleChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B88B252EABAED72A8747CF6DEC53FE1C /* Pods-TEWaveCircleChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TEWaveCircleChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC4F273B300D8163BE39769BCE4D7A95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82AE2161C963C95F4DB7833745102C0 /* Pods-TEWaveCircleChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TEWaveCircleChart_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC36A6BA0F1888D700FABAF902391751 /* Pods-TEWaveCircleChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TEWaveCircleChart_Tests.modulemap"; sourceTree = "<group>"; };
+		DD01C52E445848606267385CEC255F66 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F918ECA624C8230DEE3F391C2D44F6FF /* Pods-TEWaveCircleChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TEWaveCircleChart_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC4EE2F2E5E1FE8A297455AFC8EA562A /* Pods-TEWaveCircleChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TEWaveCircleChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC529E41F40A83E7B585A1C7F2B5FFFA /* Pods-TEWaveCircleChart_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TEWaveCircleChart_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A514F10C89471EB7E1100DCDED07983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF98A8A97D5EFADE5C70F6772A40A8E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C7437188BF68C9956751218C58B3A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA055B33835BDB4ED3D0A08877AD33F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFD8484EA28F7A3669AAAC58ABD265C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20DA98590CEF763F3EDEF8BDA03C649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D732AE4590DEEA1F43D8C3DFBEAD2B4 /* TEWaveCircleChart */ = {
+			isa = PBXGroup;
+			children = (
+				4AF6CD07C39D81CFFDC17EB5A9305C45 /* Classes */,
+			);
+			name = TEWaveCircleChart;
+			path = TEWaveCircleChart;
+			sourceTree = "<group>";
+		};
+		1FE80064A7DFB80E2882F688D6986065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E49EF7826EA5F2CA45511BD2A21E680 /* Pods_TEWaveCircleChart_Example.framework */,
+				39446B285E7A4D538FCB69E0871FBDB9 /* Pods_TEWaveCircleChart_Tests.framework */,
+				6D609CC2272172391D3E47BD05CD4EB5 /* TEWaveCircleChart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29C5DE769617B34989A3B991335AF05D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7711C2BDAC2FBEF6911461606BAEFA84 /* Pods-TEWaveCircleChart_Example */,
+				46A2EB2F2720D27A34938E061E848336 /* Pods-TEWaveCircleChart_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46A2EB2F2720D27A34938E061E848336 /* Pods-TEWaveCircleChart_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16F31223EAA9A081E1825CACE5CC692C /* Info.plist */,
+				CC36A6BA0F1888D700FABAF902391751 /* Pods-TEWaveCircleChart_Tests.modulemap */,
+				FC4EE2F2E5E1FE8A297455AFC8EA562A /* Pods-TEWaveCircleChart_Tests-acknowledgements.markdown */,
+				B88B252EABAED72A8747CF6DEC53FE1C /* Pods-TEWaveCircleChart_Tests-acknowledgements.plist */,
+				FC529E41F40A83E7B585A1C7F2B5FFFA /* Pods-TEWaveCircleChart_Tests-dummy.m */,
+				73868EB708F19699224AC37C42FF15EA /* Pods-TEWaveCircleChart_Tests-frameworks.sh */,
+				589BC3CD6F1B32CAB37F4B19A10C070A /* Pods-TEWaveCircleChart_Tests-resources.sh */,
+				F918ECA624C8230DEE3F391C2D44F6FF /* Pods-TEWaveCircleChart_Tests-umbrella.h */,
+				A3A180D81F68BF150D40DE3992CAAABB /* Pods-TEWaveCircleChart_Tests.debug.xcconfig */,
+				61DB6E82B07BDC63416EC8142D34373C /* Pods-TEWaveCircleChart_Tests.release.xcconfig */,
+			);
+			name = "Pods-TEWaveCircleChart_Tests";
+			path = "Target Support Files/Pods-TEWaveCircleChart_Tests";
+			sourceTree = "<group>";
+		};
+		4AF6CD07C39D81CFFDC17EB5A9305C45 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD01C52E445848606267385CEC255F66 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5D987892CDF71C65ECF01B35E6DA9BCE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D78B3216B2274C48CAFE474655A1D4C /* TEWaveCircleChart */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		720C675E688A51D16950D76A6176726D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6C09A76934325EE1E15E7309B80931 /* Info.plist */,
+				76A08FA0181C7976236738852ABAD927 /* TEWaveCircleChart.modulemap */,
+				B15C60BB9E7206852734612B879DA107 /* TEWaveCircleChart.xcconfig */,
+				51A65A4CE638CA4B600DA13F287E01B2 /* TEWaveCircleChart-dummy.m */,
+				24224D1F479017C24AE6FD2A3AD59CCA /* TEWaveCircleChart-prefix.pch */,
+				250F0BB6A935F1992BA1741F719F1B46 /* TEWaveCircleChart-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TEWaveCircleChart";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7711C2BDAC2FBEF6911461606BAEFA84 /* Pods-TEWaveCircleChart_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BC4F273B300D8163BE39769BCE4D7A95 /* Info.plist */,
+				A0883C5AAB62913897A86495E917B563 /* Pods-TEWaveCircleChart_Example.modulemap */,
+				28016397DA9D8BF2A68B72113DFFE5D9 /* Pods-TEWaveCircleChart_Example-acknowledgements.markdown */,
+				6584DE8969D9D02E88E29CE36942101F /* Pods-TEWaveCircleChart_Example-acknowledgements.plist */,
+				4876495FE06A9D822396619AF0335E40 /* Pods-TEWaveCircleChart_Example-dummy.m */,
+				620A0665E0163C78CE4B7869AB3ED31B /* Pods-TEWaveCircleChart_Example-frameworks.sh */,
+				499BFE8A3823175E0862317A17DF91DD /* Pods-TEWaveCircleChart_Example-resources.sh */,
+				C82AE2161C963C95F4DB7833745102C0 /* Pods-TEWaveCircleChart_Example-umbrella.h */,
+				B558D40CB465B617AC5F4E124D50E80E /* Pods-TEWaveCircleChart_Example.debug.xcconfig */,
+				4D4233FE191500C4811BCF15DE5B91AE /* Pods-TEWaveCircleChart_Example.release.xcconfig */,
+			);
+			name = "Pods-TEWaveCircleChart_Example";
+			path = "Target Support Files/Pods-TEWaveCircleChart_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5D987892CDF71C65ECF01B35E6DA9BCE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1FE80064A7DFB80E2882F688D6986065 /* Products */,
+				29C5DE769617B34989A3B991335AF05D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D78B3216B2274C48CAFE474655A1D4C /* TEWaveCircleChart */ = {
+			isa = PBXGroup;
+			children = (
+				720C675E688A51D16950D76A6176726D /* Support Files */,
+				1D732AE4590DEEA1F43D8C3DFBEAD2B4 /* TEWaveCircleChart */,
+			);
+			name = TEWaveCircleChart;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4054CAE629033C40F347E0F6289BA697 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9F89A9F70E1565DCE0E64039646518 /* TEWaveCircleChart-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4296837B0EE6A30F617694AB2930037A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631BA4CB4308E8D4464B8BFEDF7A767E /* Pods-TEWaveCircleChart_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89CBAD4C4D871EC938994FEE0BB5071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25B1BA3EEEE8FF7B7E7FBD66112D868 /* Pods-TEWaveCircleChart_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ED73DE6D709F2DD7A5311038B22A17B /* TEWaveCircleChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6ECF84D1BF3E201F44F4D9BA97A224C /* Build configuration list for PBXNativeTarget "TEWaveCircleChart" */;
+			buildPhases = (
+				C112518C773BCB778E5D243D7E2B79F9 /* Sources */,
+				7A514F10C89471EB7E1100DCDED07983 /* Frameworks */,
+				4054CAE629033C40F347E0F6289BA697 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEWaveCircleChart;
+			productName = TEWaveCircleChart;
+			productReference = 6D609CC2272172391D3E47BD05CD4EB5 /* TEWaveCircleChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CD2CE2961A50982F300765EE7E8676D /* Pods-TEWaveCircleChart_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641E89406239860B3CC0E2F1552DF1F6 /* Build configuration list for PBXNativeTarget "Pods-TEWaveCircleChart_Example" */;
+			buildPhases = (
+				CD6B6D07030A592184D310ED041D89C4 /* Sources */,
+				7C7437188BF68C9956751218C58B3A6A /* Frameworks */,
+				E89CBAD4C4D871EC938994FEE0BB5071 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E7CA73F503F0A4C3EC13A44D5BE8F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TEWaveCircleChart_Example";
+			productName = "Pods-TEWaveCircleChart_Example";
+			productReference = 8E49EF7826EA5F2CA45511BD2A21E680 /* Pods_TEWaveCircleChart_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5224C18662BD2B6CA4CC9F9EB5B918D /* Pods-TEWaveCircleChart_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0B1DD393C7FFE344691A12F35796D6 /* Build configuration list for PBXNativeTarget "Pods-TEWaveCircleChart_Tests" */;
+			buildPhases = (
+				9EEF31A2AF23AC5E6932A7F0686D244A /* Sources */,
+				9EFD8484EA28F7A3669AAAC58ABD265C /* Frameworks */,
+				4296837B0EE6A30F617694AB2930037A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TEWaveCircleChart_Tests";
+			productName = "Pods-TEWaveCircleChart_Tests";
+			productReference = 39446B285E7A4D538FCB69E0871FBDB9 /* Pods_TEWaveCircleChart_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1FE80064A7DFB80E2882F688D6986065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD2CE2961A50982F300765EE7E8676D /* Pods-TEWaveCircleChart_Example */,
+				C5224C18662BD2B6CA4CC9F9EB5B918D /* Pods-TEWaveCircleChart_Tests */,
+				0ED73DE6D709F2DD7A5311038B22A17B /* TEWaveCircleChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EEF31A2AF23AC5E6932A7F0686D244A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29973C9916BA02EE1635F7F2EBC29B8 /* Pods-TEWaveCircleChart_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C112518C773BCB778E5D243D7E2B79F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A130E98CD77491D95A9A7F064210D0F6 /* ReplaceMe.m in Sources */,
+				0F918D9243EC1D8EBB2995F6502B080D /* TEWaveCircleChart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6B6D07030A592184D310ED041D89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D105F9D4F535BE7AA3D5B00E3841AF /* Pods-TEWaveCircleChart_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5E7CA73F503F0A4C3EC13A44D5BE8F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TEWaveCircleChart;
+			target = 0ED73DE6D709F2DD7A5311038B22A17B /* TEWaveCircleChart */;
+			targetProxy = CF0DE09F656EB04CDBBD99D85AEDBBC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1921731DF450906A03714582AF7374DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A180D81F68BF150D40DE3992CAAABB /* Pods-TEWaveCircleChart_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEWaveCircleChart_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEWaveCircleChart_Tests/Pods-TEWaveCircleChart_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEWaveCircleChart_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2178103F41BE743F09C21EF66618A88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B558D40CB465B617AC5F4E124D50E80E /* Pods-TEWaveCircleChart_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEWaveCircleChart_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEWaveCircleChart_Example/Pods-TEWaveCircleChart_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEWaveCircleChart_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5824D5E188FB25804426E7A21FA2BF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15C60BB9E7206852734612B879DA107 /* TEWaveCircleChart.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TEWaveCircleChart/TEWaveCircleChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEWaveCircleChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TEWaveCircleChart/TEWaveCircleChart.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TEWaveCircleChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		797B10654EFF96E704572079E06B3B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15C60BB9E7206852734612B879DA107 /* TEWaveCircleChart.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TEWaveCircleChart/TEWaveCircleChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TEWaveCircleChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TEWaveCircleChart/TEWaveCircleChart.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TEWaveCircleChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94382B923C65934193F4AC627E0D075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4233FE191500C4811BCF15DE5B91AE /* Pods-TEWaveCircleChart_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEWaveCircleChart_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEWaveCircleChart_Example/Pods-TEWaveCircleChart_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEWaveCircleChart_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA8472B73F012786304148D39C7C8BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DB6E82B07BDC63416EC8142D34373C /* Pods-TEWaveCircleChart_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TEWaveCircleChart_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TEWaveCircleChart_Tests/Pods-TEWaveCircleChart_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TEWaveCircleChart_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0B1DD393C7FFE344691A12F35796D6 /* Build configuration list for PBXNativeTarget "Pods-TEWaveCircleChart_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1921731DF450906A03714582AF7374DA /* Debug */,
+				FA8472B73F012786304148D39C7C8BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641E89406239860B3CC0E2F1552DF1F6 /* Build configuration list for PBXNativeTarget "Pods-TEWaveCircleChart_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2178103F41BE743F09C21EF66618A88A /* Debug */,
+				94382B923C65934193F4AC627E0D075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6ECF84D1BF3E201F44F4D9BA97A224C /* Build configuration list for PBXNativeTarget "TEWaveCircleChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824D5E188FB25804426E7A21FA2BF36 /* Debug */,
+				797B10654EFF96E704572079E06B3B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

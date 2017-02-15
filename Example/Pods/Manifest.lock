@@ -1,0 +1,16 @@
+PODS:
+  - TEWaveCircleChart (0.1.0)
+
+DEPENDENCIES:
+  - TEWaveCircleChart (from `../`)
+
+EXTERNAL SOURCES:
+  TEWaveCircleChart:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TEWaveCircleChart: f3fe6386c0de2b80cf7c5ab7423ff02454969a13
+
+PODFILE CHECKSUM: cb6f80302aada6159bcbb9be2bc3a14d1024e41f
+
+COCOAPODS: 1.1.1

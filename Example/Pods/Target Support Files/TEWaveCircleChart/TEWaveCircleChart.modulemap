@@ -1,0 +1,6 @@
+framework module TEWaveCircleChart {
+  umbrella header "TEWaveCircleChart-umbrella.h"
+
+  export *
+  module * { export * }
+}
